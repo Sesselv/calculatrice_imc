@@ -1,0 +1,102 @@
+body {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    background-color: rgb(199, 182, 255);
+    position: fixed !important;
+}
+
+main {
+    text-align: center !important;
+    background-size: fit-content !important;
+    background-color: rgb(243, 235, 255) !important;
+    padding: 30px;
+    margin: 200px;
+    border-radius: 7%;
+    box-shadow: rgb(255, 144, 229) 0px 0px 0px 3px,
+        rgb(117, 188, 255) 0px 0px 0px 6px,
+        rgb(255, 232, 120) 0px 0px 0px 9px,
+        rgb(255, 156, 85) 0px 0px 0px 12px;
+    ;
+
+}
+
+.form-input {
+    color: rgb(167, 163, 255) !important;
+    border-color: rgb(167, 163, 255) !important;
+    padding: 10px !important;
+}
+
+
+
+h1 {
+    color: rgb(255, 190, 12) !important;
+    -webkit-text-stroke: 1.5px rgb(185, 167, 255) !important;
+}
+
+.btn-primary {
+    background-color: rgba(255, 191, 0, 0.925);
+    border-style: none;
+
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(167, 163, 255) !important;
+}
+
+.paragraphe {
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    font-size: 30px !important;
+    -webkit-text-stroke: 0.5px rgb(255, 188, 43) !important;
+    display: inline-block !important;
+    margin-right: 100px !important;
+}
+
+.maigreurExtreme {
+    background-color: rgb(94, 222, 183);
+    background-size: fit-content !important;
+    padding: 2px !important;
+
+}
+
+.insuffisance {
+    background-color: rgb(85, 173, 91);
+    background-size: fit-content !important;
+    padding: 2px !important;
+}
+
+.normale {
+    background-color: rgb(255, 226, 83);
+    background-size: fit-content !important;
+    padding: 2px !important;
+
+}
+
+.surpoids {
+    background-color: rgb(255, 174, 60);
+    background-size: fit-content !important;
+    padding: 2px !important;
+}
+
+.obèse {
+    background-color: rgb(255, 144, 89);
+    background-size: fit-content !important;
+    padding: 2px !important;
+}
+
+.obèsitéSévére {
+    background-color: rgb(255, 87, 87);
+    background-size: fit-content !important;
+    padding: 2px !important;
+}
+
+.morbide {
+    background-color: rgb(119, 20, 48);
+    background-size: fit-content !important;
+    padding: 2px !important;
+}
+
+@media only screen and(max-width:600px) {}
